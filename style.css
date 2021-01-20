@@ -1,0 +1,29 @@
+/*body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    margin-left: 20px;
+}
+
+.col {
+    width: 200px;
+}*/
+
+.btn-primary {
+    width: 150px;
+    height: 80px;
+    font-size: 28px;
+    margin: auto;
+    display: block;
+}
+
+.btn-danger {
+    margin: auto;
+    display: block;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>Vád Calculator</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="gen.js"></script>
+    </head>
+    <body>
+        <div class="jumbotron text-center">
+            <h1>LSPD's Vád Calculator</h1>
+            <p>Jelölje be az elkövetett vádakat, majd kattintson a Generál gombra kiszámoláshoz.</p> 
+            <p align="center">By: Balage.</p>
+          </div>
+            
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4">
+                <h3>Közlekedési szabálysértések</h3>
+                <input type="checkbox" id="1" name="vad" value="hangkurt">
+                <label for="1">Hangkürt indokolatlan használata: 300$</label><br>
+                <input type="checkbox" id="2" name="vad" value="zarovonal">
+                <label for="2">Záróvonal átlépése: 200$</label><br>
+                <input type="checkbox" id="3" name="vad" value="megfordulas">
+                <label for="3">Szabálytalan megfordulás 400$</label><br>
+                <input type="checkbox" id="5" name="vad" value="zarovonal">
+                <label for="5">Közút rongálása: 300$</label><br>
+                <input type="checkbox" id="6" name="vad" value="megfordulas">
+                <label for="6">Követési távolság be nem tartása: 200$</label><br>
+                <input type="checkbox" id="7" name="vad" value="hangkurt">
+                <label for="7">Tilosban való parkolás: 750$</label><br>
+                <input type="checkbox" id="8" name="vad" value="zarovonal">
+                <label for="8">Tilosban való megállás: 50$</label><br>
+                <input type="checkbox" id="9" name="vad" value="megfordulas">
+                <label for="9">Közlekedési baleset okozása: 1000$</label><br>
+                <input type="checkbox" id="10" name="vad" value="hangkurt">
+                <label for="10">Közlekedési baleset okozása (személyi s.): 1500$</label><br>
+                <input type="checkbox" id="11" name="vad" value="zarovonal">
+                <label for="11">Elsőbbség meg nem adása: 600$</label><br>
+                <input type="checkbox" id="12" name="vad" value="megfordulas">
+                <label for="12">Piros lámpán való áthaladás: 600$</label><br>
+                <input type="checkbox" id="13" name="vad" value="zarovonal">
+                <label for="13">Veszélyes előzés: 600$</label><br>
+                <input type="checkbox" id="14" name="vad" value="megfordulas">
+                <label for="14">Nem megfelelő műszaki állapot (motor n. f.): 600$</label><br>
+                <input type="checkbox" id="15" name="vad" value="hangkurt">
+                <label for="15">Nem megfelelő műszaki állapot (m. f.) 1200$</label><br>
+                <input type="checkbox" id="16" name="vad" value="zarovonal">
+                <label for="16">Vezetői engedély hiánya: 1500$</label><br>
+                <input type="checkbox" id="17" name="vad" value="megfordulas">
+                <label for="17">Gyorhajtás 5-20 km/h-val: 600$</label><br>
+                <input type="checkbox" id="18" name="vad" value="hangkurt">
+                <label for="18">Gyorshajtás 20-50 km/h-val: 1000$</label><br>
+                <input type="checkbox" id="19" name="vad" value="zarovonal">
+                <label for="19">Gyorshajtás több mint 50 km/hval: 1400$</label><br>
+                <input type="checkbox" id="20" name="vad" value="megfordulas">
+                <label for="20">Forgalommal szemben haladás: 400$</label><br>
+                <input type="checkbox" id="58" name="vad" value="fuvar">
+                <label for="58">Hivatalos engedély nélküli fuvarozás: 3000$</label><br>
+              </div>
+              <div class="col-sm-4">
+                <h3>Kissebb szabálysértések</h3>
+                <input type="checkbox" id="21" name="vad" value="hangkurt">
+                <label for="21">Illuminált állapotban történő vezetés: 1650$</label><br>
+                <input type="checkbox" id="22" name="vad" value="zarovonal">
+                <label for="22">Rendbontás: 1500$</label><br>
+                <input type="checkbox" id="23" name="vad" value="megfordulas">
+                <label for="23">Rendőrségi munka akadályozása: 1500$</label><br>
+                <input type="checkbox" id="24" name="vad" value="hangkurt">
+                <label for="24">Hivatalos személy sértegetése: 2000$</label><br>
+                <input type="checkbox" id="25" name="vad" value="zarovonal">
+                <label for="25">Polgár fenyegetése/megfélemlítése: 500$</label><br>
+                <input type="checkbox" id="26" name="vad" value="megfordulas">
+                <label for="26">Hamis tanúzás: 700$</label><br>
+                <input type="checkbox" id="27" name="vad" value="megfordulas">
+                <label for="27">Elmenekülés az igazoltatás alól: 1500$</label><br>
+                <input type="checkbox" id="28" name="vad" value="zarovonal">
+                <label for="28">Korrupciós kísérlet: 5000$</label><br>
+                <input type="checkbox" id="29" name="vad" value="megfordulas">
+                <label for="29">Cserbenhagyás: 700$</label><br>
+              </div>
+              <div class="col-sm-4">
+                <h3>Közepes szabálysértések</h3>        
+                <input type="checkbox" id="30" name="vad" value="hangkurt">
+                <label for="30">Közelharci fegyverhasználat 1000$</label><br>
+                <input type="checkbox" id="31" name="vad" value="zarovonal">
+                <label for="31">Éles lőfegyver használata: 1500$</label><br>
+                <input type="checkbox" id="32" name="vad" value="megfordulas">
+                <label for="32">Lejárt fegyvertartási engedély: 2500$</label><br>
+                <input type="checkbox" id="33" name="vad" value="hangkurt">
+                <label for="33">Gépjármű eltulajdonítása: 2500$</label><br>
+                <input type="checkbox" id="34" name="vad" value="zarovonal">
+                <label for="34">Illegális fegyverbirtoklás 3000$</label><br>
+                <input type="checkbox" id="35" name="vad" value="megfordulas">
+                <label for="35">Drog birtoklása: 2000$</label><br>
+                <input type="checkbox" id="36" name="vad" value="hangkurt">
+                <label for="36">Drog kereskedelem: 2700$</label><br>
+                <input type="checkbox" id="37" name="vad" value="zarovonal">
+                <label for="37">Polgár elrablása: 4000$</label><br>
+                <input type="checkbox" id="38" name="vad" value="megfordulas">
+                <label for="38">Hivatalos személy elrablása: 6000$</label><br>
+                <input type="checkbox" id="39" name="vad" value="hangkurt">
+                <label for="39">Polgár kifosztása: 2000$</label><br>
+                <input type="checkbox" id="40" name="vad" value="zarovonal">
+                <label for="40">Bolt rablás kísérlete: 3500$</label><br>
+                <input type="checkbox" id="41" name="vad" value="megfordulas">
+                <label for="41">Sikeres boltrablás: 4000$</label><br>
+                <input type="checkbox" id="42" name="vad" value="zarovonal">
+                <label for="42">Kocsmai rablás kísérlete: 4000$</label><br>
+                <input type="checkbox" id="43" name="vad" value="megfordulas">
+                <label for="43">Sikeres kocsmai rablás: 4500$</label><br>
+                <input type="checkbox" id="44" name="vad" value="hangkurt">
+                <label for="44">Bank rablás kísérlete: 5000$</label><br>
+                <input type="checkbox" id="45" name="vad" value="zarovonal">
+                <label for="45">Sikeres bank rablás: 5500$</label><br>
+                <input type="checkbox" id="46" name="vad" value="megfordulas">
+                <label for="46">Üzleti átverés: 2500$</label><br>
+                <input type="checkbox" id="47" name="vad" value="hangkurt">
+                <label for="47">Illegális fegyverkereskedelem: 3200$</label><br>
+                <input type="checkbox" id="48" name="vad" value="zarovonal">
+                <label for="48">Gondatlanságból elkövetett testi sértés: 1000$</label><br>
+                <input type="checkbox" id="49" name="vad" value="megfordulas">
+                <label for="49">Gondatlanságból elkövetett emberölés: 1500$</label><br>
+                <input type="checkbox" id="59" name="vad" value="atm">
+                <label for="59">ATM kirablása 2000$</label><br>
+                <input type="checkbox" id="60" name="vad" value="ekszerkiserlet">
+                <label for="60">Ékszerboltrablás kísérlete 4500$</label><br>
+                <input type="checkbox" id="61" name="vad" value="atm">
+                <label for="61">Sikeres ékszerboltrablás 5000$</label><br>
+              </div>
+              <div class="col-sm-6">
+                <h3>Súlyos szabálysértések</h3>        
+                <input type="checkbox" id="50" name="vad" value="hangkurt">
+                <label for="50">Közelharci eszközzel elkövetett támadás polgár ellen: 2800$</label><br>
+                <input type="checkbox" id="51" name="vad" value="zarovonal">
+                <label for="51">Közelharci eszközzel elkövetett támadás hivatali személy ellen 3200$</label><br>
+                <input type="checkbox" id="52" name="vad" value="megfordulas">
+                <label for="52">Polgár meglövése: 3500$</label><br>
+                <input type="checkbox" id="53" name="vad" value="hangkurt">
+                <label for="53">Hivatali személy meglövése: 4000$</label><br>
+                <input type="checkbox" id="54" name="vad" value="zarovonal">
+                <label for="54">Polgár ellen elkövetett emberölési kísérlet: 4500$</label><br>
+                <input type="checkbox" id="55" name="vad" value="megfordulas">
+                <label for="55">Hivatalos személy ellen elkövetett emberölési kísérlet: 5000$</label><br>
+                <input type="checkbox" id="56" name="vad" value="hangkurt">
+                <label for="56">Polgár ellen elkövetett emberölés:  20000$</label><br>
+                <input type="checkbox" id="57" name="vad" value="zarovonal">
+                <label for="57">Hivatalos személy ellen elkövetett emberölés: 40000$</label><br>
+                
+              </div>
+            </div>
+          </div>
+          <button type="button" onClick="General();" class="btn btn-primary">Generál</button>
+            <button style="margin: block;display:block;" onClick="Reload()" type="button" class="btn btn-danger">Újratölt</button>
+          <br>
+          <div class="panel panel-default">
+            <div class="panel-body"><span id="do">/do </span></div>
+          </div>
+        </div>
+        <h1 id="ertek"></h1>
+        <h2 id="borton"></h2>
+    </body>
+</html>
