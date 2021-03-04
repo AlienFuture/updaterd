@@ -224,7 +224,7 @@ function General() {
             case 33: {
                 if(vad.checked == true) {
                     d+="Gépjármű eltulajdonítása: 2500$ ";
-                    ertek+=3000;
+                    ertek+=2500;
                 }
                 break;
             }
@@ -342,57 +342,57 @@ function General() {
             }
             case 50: {
                 if(vad.checked == true) {
-                    d+="Közelharci eszközzel elkövetett támadás polgár ellen: 1800$ ";
-                    ertek+=1800;
+                    d+="Közelharci eszközzel elkövetett támadás polgár ellen: 2800$ ";
+                    ertek+=2800;
                 }
                 break;
             }
             case 51: {
                 if(vad.checked == true) {
-                    d+="Közelharci eszközzel elkövetett támadás hivatali személy ellen 2000$ ";
-                    ertek+=2000;
+                    d+="Közelharci eszközzel elkövetett támadás hivatali személy ellen 3200$ ";
+                    ertek+=3200;
                 }
                 break;
             }
             case 52: {
                 if(vad.checked == true) {
-                    d+="Polgár meglövése: 2800$ ";
-                    ertek+=2800;
+                    d+="Polgár meglövése: 3500$ ";
+                    ertek+=3500;
                 }
                 break;
             }
             case 53: {
                 if(vad.checked == true) {
-                    d+="Hivatali személy meglövése: 3500$ ";
-                    ertek+=3500;
+                    d+="Hivatali személy meglövése: 4000$ ";
+                    ertek+=4000;
                 }
                 break;
             }
             case 54: {
                 if(vad.checked == true) {
-                    d+="Polgár ellen elkövetett emberölési kísérlet: 2600$ ";
-                    ertek+=2600;
+                    d+="Polgár ellen elkövetett emberölési kísérlet: 4500$ ";
+                    ertek+=45000;
                 }
                 break;
             }
             case 55: {
                 if(vad.checked == true) {
-                    d+="Hivatalos személy ellen elkövetett emberölési kísérlet: 3000$ ";
-                    ertek+=3000;
+                    d+="Hivatalos személy ellen elkövetett emberölési kísérlet: 5000$ ";
+                    ertek+=5000;
                 }
                 break;
             }
             case 56: {
                 if(vad.checked == true) {
-                    d+="Polgár ellen elkövetett emberölés: 15000$ ";
-                    ertek+=15000;
+                    d+="Polgár ellen elkövetett emberölés: 20000$ ";
+                    ertek+=20000;
                 }
                 break;
             }
             case 57: {
                 if(vad.checked == true) {
-                    d+="Hivatalos személy ellen elkövetett emberölés: 30000$ ";
-                    ertek+=30000;
+                    d+="Hivatalos személy ellen elkövetett emberölés: 40000$ ";
+                    ertek+=40000;
                 }
                 break;
             }
@@ -432,7 +432,7 @@ function General() {
     }
     document.getElementById("do").innerHTML = d;
     document.getElementById("ertek").innerHTML = ertek + "$";
-    document.getElementById("borton").innerHTML = Math.round(ertek/100) + "hónap";
+    document.getElementById("borton").innerHTML = Math.round(ertek/400) + "hónap";
 }
 
 function Reload() {

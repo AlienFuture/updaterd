@@ -1,19 +1,7 @@
-/*body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
     background-color: black;
-    color: white;
+    color: white
 }
-
-h1 {
-    text-align: center;
-}
-h2 {
-    margin-left: 20px;
-}
-
-.col {
-    width: 200px;
-}*/
 
 .btn-primary {
     width: 150px;
@@ -26,4 +14,12 @@ h2 {
 .btn-danger {
     margin: auto;
     display: block;
+}
+
+.jumbotron {
+    background-color: black;
+}
+
+.panel-body {
+    background-color: black;
 }
