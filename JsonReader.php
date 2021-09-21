@@ -1,6 +1,4 @@
 <?php
-//$values = json_decode($valuesRaw, true);
-
 class JsonReader {
     protected $values;
     public function __construct($path) {
