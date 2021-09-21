@@ -1,0 +1,274 @@
+{
+    "driving": {
+        "name": "Közlekedési szabálysértések",
+        "values": [
+            {
+                "label": "Hangkürt indokolatlan használata",
+                "price": "300"
+            },
+            {
+                "label": "Záróvonal átlépése",
+                "price": "200"
+            },
+            {
+                "label": "Forgalom indokolatlan akadályozása",
+                "price": "400"
+            },
+            {
+                "label": "Szabálytalan megfordulás",
+                "price": "400"
+            },
+            {
+                "label": "Közút rongálása",
+                "price": "300"
+            },
+            {
+                "label": "Követési távolság be nem tartása",
+                "price": "200"
+            },
+            {
+                "label": "Tilosban való parkolás",
+                "price": "750"
+            },
+            {
+                "label": "Tilosban való megállás",
+                "price": "500"
+            },
+            {
+                "label": "Közlekedési balaset okozása (enyhe)",
+                "price": "1000"
+            },
+            {
+                "label": "Közlekedési balaset okozása (súlyos)",
+                "price": "1500"
+            },
+            {
+                "label": "Elsöbbség meg nem adása",
+                "price": "600"
+            },
+            {
+                "label": "Piros lámpán való áthaladás",
+                "price": "600"
+            },
+            {
+                "label": "Veszélyes elözés",
+                "price": "600"
+            },
+            {
+                "label": "Nem megfelelö müszaki állapot (enyhe)",
+                "price": "600"
+            },
+            {
+                "label": "Nem megfelelö müszaki állapot (súlyos)",
+                "price": "1200"
+            },
+            {
+                "label": "Vezetöi engedély hiánya",
+                "price": "1500"
+            },
+            {
+                "label": "Sebesség korlát túllépése 0-20 km/h-val",
+                "price": "600"
+            },
+            {
+                "label": "Sebesség korlát túllépése 20-50 km/h-val",
+                "price": "1000"
+            },
+            {
+                "label": "Sebesség korlát túllépése 50 km/h-tól",
+                "price": "1400"
+            },
+            {
+                "label": "Forgalommal szemben haladás",
+                "price": "400"
+            }
+        ]
+    },
+    "low": {
+        "name": "Kissebb szabálysértések",
+        "values": [
+            {
+                "label": "Illuminált állapotban való vezetés",
+                "price": "1650"
+            },
+            {
+                "label": "Rendbontás",
+                "price": "1500"
+            },
+            {
+                "label": "Rendörségi munka akadályozása",
+                "price": "1500"
+            },
+            {
+                "label": "Hivatalos személy sértegetése",
+                "price": "2000"
+            },
+            {
+                "label": "Polgárok szóbeli fenyegetése",
+                "price": "1000"
+            },
+            {
+                "label": "Hamis tanúzás",
+                "price": "1500"
+            },
+            {
+                "label": "Elmenekülés az igazoltatás alól",
+                "price": "1500"
+            },
+            {
+                "label": "Korrupciós kísérlet",
+                "price": "5000"
+            },
+            {
+                "label": "Cserbenhagyás",
+                "price": "700"
+            }
+        ]
+    },
+    "middle": {
+        "name": "Közepes szabálysértések",
+        "values": [
+            {
+                "label": "Közelharci fegyverhasználat",
+                "price": "1000"
+            },
+            {
+                "label": "Éles löfegyver használat",
+                "price": "1500"
+            },
+            {
+                "label": "Lejárt fegyvertartási engedély",
+                "price": "2500"
+            },
+            {
+                "label": "Gépjármü eltulajdonítása",
+                "price": "2500"
+            },
+            {
+                "label": "Illegális fegyverbirtoklás",
+                "price": "3000"
+            },
+            {
+                "label": "Drog birtoklása",
+                "price": "2000"
+            },
+            {
+                "label": "Drog kereskedelem",
+                "price": "2700"
+            },
+            {
+                "label": "Polgár elrablása, fogva tartása",
+                "price": "4000"
+            },
+            {
+                "label": "Hivatalos személy elrablása",
+                "price": "6000"
+            },
+            {
+                "label": "Polgár kifosztása",
+                "price": "2000"
+            },
+            {
+                "label": "Bolt rablás kísérlete",
+                "price": "3500"
+            },
+            {
+                "label": "Sikeres boltrablás",
+                "price": "4000"
+            },
+            {
+                "label": "Kocsmai rablás kísérlete",
+                "price": "4000"
+            },
+            {
+                "label": "Sikeres kocsmai rablás",
+                "price": "4500"
+            },
+            {
+                "label": "Bankrablás kísérlete",
+                "price": "5000"
+            },
+            {
+                "label": "Sikeres bankrablás",
+                "price": "5500"
+            },
+            {
+                "label": "Üzleti átverés",
+                "price": "2500"
+            },
+            {
+                "label": "Illegális fegyverkereskedelem",
+                "price": "3200"
+            },
+            {
+                "label": "Gondatlanságból ekövetett testi sértés",
+                "price": "1000"
+            },
+            {
+                "label": "Gondatlanságból ekövetett emberölés",
+                "price": "1500"
+            },
+            {
+                "label": "ATM kirablása",
+                "price": "2000"
+            },
+            {
+                "label": "Ékszerboltrablás kísérlete",
+                "price": "4500"
+            },
+            {
+                "label": "Sikeres ékszerboltrablás",
+                "price": "5000"
+            },
+            {
+                "label": "Vadászengedély hiánya",
+                "price": "5000"
+            },
+            {
+                "label": "Union bank kirablása",
+                "price": "5000"
+            },
+            {
+                "label": "Union bank rablásának kísérlete",
+                "price": "3000"
+            }
+        ]
+    },
+    "high": {
+        "name": "Súlyos szabálysértések",
+        "values": [
+            {
+                "label": "Közelharci eszközzel való sebzés (polgár)",
+                "price": "2800"
+            },
+            {
+                "label": "Közelharci eszközzel való sebzés (állami)",
+                "price": "3200"
+            },
+            {
+                "label": "Polgár meglövése",
+                "price": "3500"
+            },
+            {
+                "label": "Hivatalos személy meglövése",
+                "price": "4000"
+            },
+            {
+                "label": "Polgár ellen elkövetett emberölési kísérlet",
+                "price": "4500"
+            },
+            {
+                "label": "Hivatalos személy emberölési kisérlet",
+                "price": "5000"
+            },
+            {
+                "label": "Polgár ellen elkövetett emberölés",
+                "price": "20000"
+            },
+            {
+                "label": "Hivatalos személy emberölése",
+                "price": "40000"
+            }
+        ]
+    }
+}

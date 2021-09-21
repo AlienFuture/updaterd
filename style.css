@@ -1,13 +1,17 @@
 body {
-    background-color: black;
-    color: white
+    background-color: #0f111a;
+    color: #bdc3c7;
+    font-family: sans-serif;
+    font-size: 15px!important;
+    font-weight: bold;
+
 }
 
-.btn-primary {
-    width: 150px;
+
+.btn-success {
     height: 80px;
     font-size: 28px;
-    margin: auto;
+    margin: 20px auto auto auto;
     display: block;
 }
 
@@ -17,9 +21,17 @@ body {
 }
 
 .jumbotron {
-    background-color: black;
+    background-color: #0f111a;
+    
 }
 
 .panel-body {
     background-color: black;
+    width: auto;
+    opacity: 98%
+}
+
+h3 {
+    color: #fff;
+    opacity: 80%;
 }
